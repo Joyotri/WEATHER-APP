@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  
+  <!-- Top Section -->
+  <div class="top">
+    <h2 id="city">Loading...</h2>
+  </div>
+
+  <!-- Weather Display -->
+  <div class="weather">
+    <img id="icon" src="https://www.amcharts.com/wp-content/themes/amcharts4/css/img/icons/weather/animated/day.svg" alt="weather icon">
+    <h1 id="temp">--°C</h1>
+    <p id="feels">Feels like --°C</p>
+  </div>
+
+  <!-- Input Section -->
+  <div class="inputs">
+    <input type="text" id="inputCity" placeholder="Enter City (e.g. Kolkata)">
+  </div>
+
+  <!-- Buttons -->
+  <div class="buttons">
+    <button onclick="getWeather()">Search</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

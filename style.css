@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e2f, #3a3a6a);
+}
+
+.card {
+  width: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: white;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Top */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top button {
+  background: white;
+  color: #4e54c8;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Weather Section */
+.weather img {
+  width: 120px;
+  margin: 10px 0;
+}
+
+.weather h1 {
+  font-size: 48px;
+}
+
+.weather p {
+  opacity: 0.9;
+}
+
+/* Inputs */
+.inputs {
+  margin-top: 15px;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 15px;
+}
+
+.buttons button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #4e54c8;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background: #ddd;
+}
